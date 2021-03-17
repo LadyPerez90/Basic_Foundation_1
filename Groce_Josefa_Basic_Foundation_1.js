@@ -133,6 +133,15 @@ function maxMinAvg(arr){
     arrNew.push(avg);
     retrurn arrNew;
 }
-console.log(maxMinAvg());
+// console.log(maxMinAvg());
 
-//Swap Values
+//Number to String
+function numStr(arr){
+    for(var i=0; i < arr.length; i++){
+        if(arr[i]<0){
+            arr[i] = 'Dojo';
+        }
+    }
+    return arr;
+}
+// console.log(numStr());
